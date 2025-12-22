@@ -190,7 +190,7 @@ const AnglerUpdate: FC<{ userId: string, avatarPath: string, displayName: string
 		</div>
 		<DFText weight="1" size="m" color="#242f22">
 			{user.post}
-		</DFText>
+		</DFText> 
 		<div className="w-full flex items-center">
 			{
 				(user.location != null && user.location != "") &&
