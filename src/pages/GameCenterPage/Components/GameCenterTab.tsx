@@ -75,7 +75,6 @@ export const GameCenterTab = forwardRef<GameCenterTabRef>(({ }, ref) => {
 	const tc = taskCount == null || taskCount[TaskStatus.Completed] == null ? 0 : taskCount[TaskStatus.Completed]
 
 	const tabs: AppRoute[] = [
-		games,
 		main,
 		tops,
 	]
