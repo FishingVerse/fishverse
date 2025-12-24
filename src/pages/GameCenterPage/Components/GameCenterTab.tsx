@@ -56,7 +56,7 @@ export const GameCenterTab = forwardRef<GameCenterTabRef>(({ }, ref) => {
 
 	const gamecenter = routes.find(r => r.id == "gamecenter") as AppRoute;
 	const main = gamecenter.subRoutes?.find(r => r.id == "gamecenter-main") as AppRoute;
-	const games = gamecenter.subRoutes?.find(r => r.id == "gamecenter-games") as AppRoute;
+	// const games = gamecenter.subRoutes?.find(r => r.id == "gamecenter-games") as AppRoute;
 	const tasks = gamecenter.subRoutes?.find(r => r.id == "gamecenter-tasks") as AppRoute;
 	const tops = gamecenter.subRoutes?.find(r => r.id == "gamecenter-tops") as AppRoute;
 
